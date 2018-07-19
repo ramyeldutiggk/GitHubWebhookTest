@@ -1,4 +1,7 @@
 node{
+  stage('git checkout'){
+    checkout scm
+  }
   stage('stage1'){
    echo "hai"
    }
